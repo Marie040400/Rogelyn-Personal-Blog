@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'; /* Apply Poppins font */
+    background-color: #f8f8f8;
+    body {
+        background-image: url('img/home.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #4c66af;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+}
+
+.explore-btn:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .explore-btn {
+        font-size: 16px;
+    }
+}
